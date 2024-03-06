@@ -32,8 +32,10 @@ eval "$(pyenv init --path)"
 eval "$(pyenv virtualenv-init -)"
 ```
 <br />
-Save and close bashrc.<br />
-Restart terminal with the command ```exec $SHELL``` <br />
+Save and close bashrc<br />
+
+Restart terminal with the command ```exec $SHELL```
+<br />
 
 Install extra packages:<br />
 ```
@@ -41,5 +43,6 @@ sudo apt-get install --yes libssl-dev zlib1g-dev libbz2-dev libreadline-dev libs
 ```
 <br />
 
+Update pyenv ```pyenv update```
 
 
