@@ -144,4 +144,33 @@ pip install  tensorflow-'version'.whl
 5. Transfer downloaded .whl file from PC to Raspberry Pi through WSCP (to the projects folder)
 6. now do ``` pip install  tensorflow-'version'.whl```
 
+Now, Tensorflow should be installed.<br />
+Restart the shell ```exec $SHELL```
+<br />
+Run command:
+```
+cd Desktop
+cd project
+source env/bin/activate
+python
+  >>>import tensorflow
+  >>>tensorflow.__version__
+```
+
+<br />
+It's installed.
+
+![image](https://github.com/mrdunker/CNN_based_PUF/assets/38190245/abbae9e1-6ff7-4fd6-ab8d-b6a2f6a32df3)
+
+<br />
+To fix the 'HDF5' warning:
+
+```
+pip uninstall h5py
+HDF5_VERSION=1.10.6 pip install --no-binary=h5py h5py==3.1.0 // might not work
+```
+
+Reference: https://docs.h5py.org/en/stable/build... 
+<br />
+
 
