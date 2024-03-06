@@ -67,4 +67,41 @@ If we want to revert this action we can uninstall it.<br />
 Run command: ```rm -fr ~/.pyenv```
 <br />
 Then remove lines from .bashrc (sudo nano ~/.bashrc). <br />
+<br />
+## Comming back to TensorFlow
+
+To know Processor architecture ```uname -m```
+<br />
+To know Pi OS details ``` cat /etc/os-release```
+<br />
+<br />
+Find proper tensorflow file from github : https://github.com/PINTO0309/Tensorflow-bin/tree/main/previous_versions
+<br />
+Based on Processor Architecture(armv7l) and Python version(3.7)
+<br />
+<br />
+Make your project directory:
+```
+cd Desktop
+mkdir project
+cd project
+```
+<br />
+Now, to make a virtual enviornment :
+
+```
+python3 -m pip install virtualenv
+python3 -m virtualenv env
+source env/bin/activate
+```
+(Recomended since package versioning matters in tools like TF)
+<br />
+
+Run below pacakge,These are system y packages plus some python packages:
+```
+sudo apt-get install -y libhdf5-dev libc-ares-dev libeigen3-dev gcc gfortran libgfortran5 libatlas3-base libatlas-base-dev libopenblas-dev libopenblas-base libblas-dev liblapack-dev cython3 libatlas-base-dev openmpi-bin libopenmpi-dev python3-dev
+```
+
+Run the following also : ```pip install -U wheel mock six```
+
 
