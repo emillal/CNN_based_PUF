@@ -135,7 +135,7 @@ Install the .whl filein the directory.Install with the command below :
 ```
 pip install  tensorflow-'version'.whl
 ```
-### *UPDATE: wget direct will not work
+### ***UPDATE: wget direct will not work
 
 1. Remove the the existing tensorflow.whl file
 2. Download manually from https://github.com/PINTO0309/Tensorflow-bin/blob/main/previous_versions/download_tensorflow-2.5.0-cp37-none-linux_armv7l_numpy1195.sh
