@@ -24,7 +24,7 @@ Approch as per : https://www.youtube.com/watch?v=QLZWQlg-Pk0&t=241s <br />
 
 Download pyenv: ```curl https://pyenv.run | bash``` <br />
 
-Run commmand ```sudo nano ~/.bashrc``` <br />
+Run commmand : ```sudo nano ~/.bashrc``` <br />
 Add the following three lines to the botton of the .bashrc file:<br />
 ```
 export PATH="$HOME/.pyenv/bin:$PATH"
@@ -34,7 +34,7 @@ eval "$(pyenv virtualenv-init -)"
 <br />
 Save and close bashrc<br />
 
-Restart terminal with the command ```exec $SHELL```
+Restart terminal with the command: ```exec $SHELL```
 <br />
 
 Install extra packages:<br />
@@ -43,6 +43,14 @@ sudo apt-get install --yes libssl-dev zlib1g-dev libbz2-dev libreadline-dev libs
 ```
 <br />
 
-Update pyenv ```pyenv update```
+Update pyenv using command: ```pyenv update```
+<br />
+We can choose from the list of python versions availible. We are going to install 3.7.12 using :
+```
+pyenv install --list
+pyenv install 3.7.12
+```
+<br />
+<br />
 
 
