@@ -104,4 +104,31 @@ sudo apt-get install -y libhdf5-dev libc-ares-dev libeigen3-dev gcc gfortran lib
 
 Run the following also : ```pip install -U wheel mock six```
 
+<br />
+Find proper tensorflow file from github : https://github.com/PINTO0309/Tensorflow-bin/tree/main/previous_versions
+<br />
+<br />
+We select "download_tensorflow-2.5.0-cp37-none-linux_armv7l_numpy1195.sh" <br />
+Raw file link :
+https://raw.githubusercontent.com/PINTO0309/Tensorflow-bin/main/previous_versions/download_tensorflow-2.5.0-cp37-none-linux_armv7l_numpy1195.sh
+<br />
+<br />
 
+Run command :```wget 'the above url'```
+<br />
+Make the .sh as executable file with ```sudo chmod +x 'filename'```
+<br />
+Run the command to exceute : ```./'filename'```
+<br />
+Now a .whl file will be made in the directory.
+<br />
+If any pre-existing tensorflow exits,Uninstall :
+```
+sudo pip uninstall tensorflow
+pip uninstall tensorflow
+```
+<br />
+Install the .whl filein the directory.Install with the command below :
+```
+pip install  tensorflow-'version'.whl
+```
