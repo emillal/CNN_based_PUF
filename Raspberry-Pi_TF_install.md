@@ -53,4 +53,18 @@ pyenv install 3.7.12
 <br />
 <br />
 
+Making this(pyenv) the local or global python:
+```
+pyenv local 3.7.12  // sets the python version a given particular folder(directory)
+or
+pyenv shell 3.7.12  // not reccomended to use
+or
+pyenv global 3.7.12 // sets this version as global
+```
+<br />
+
+If we want to revert this action we can uninstall it.<br />
+Run command: ```rm -fr ~/.pyenv```
+<br />
+Then remove lines from .bashrc (sudo nano ~/.bashrc). <br />
 
