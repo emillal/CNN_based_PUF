@@ -168,9 +168,26 @@ To fix the 'HDF5' warning:
 ```
 pip uninstall h5py
 HDF5_VERSION=1.10.6 pip install --no-binary=h5py h5py==3.1.0 // might not work
+pip install h3py // installs h5py 3.8.0
 ```
 
 Reference: https://docs.h5py.org/en/stable/build... 
 <br />
+<br />
+
+Now we send the code and pretrained model to the Raspberrypi system and Infer it.<br />
+
+We run a few commands:
+```
+sudo pip3 install keras_applications==1.0.8 --no-deps
+sudo pip3 install keras_preprocessing==1.1.0 --no-deps
+pip install pillow
+```
+
+And, we are good to go.<br />
+
+![image](https://github.com/mrdunker/CNN_based_PUF/assets/38190245/79a52404-016a-43fc-9869-2efe30ed4160)
+
+
 
 
