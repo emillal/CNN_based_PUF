@@ -1,6 +1,4 @@
-## Installation attempts of Tensorflow
-
-### Attempt 1:
+## Installation of Tensorflow on Raspberrypi 3B
 
 Material   : ```https://www.youtube.com/watch?v=9fEnvDgxwbI&t=1s``` <br />
 VNC viewer : ```https://www.realvnc.com/en/connect/download/viewer/```
