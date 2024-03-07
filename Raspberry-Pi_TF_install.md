@@ -139,7 +139,7 @@ pip install  tensorflow-'version'.whl
 
 In such cases:
 1. Remove the the existing tensorflow.whl file
-2. Download manually from https://github.com/PINTO0309/Tensorflow-bin/blob/main/previous_versions/download_tensorflow-2.5.0-cp37-none-linux_armv7l_numpy1195.sh
+2. Download manually from https://github.com/PINTO0309/Tensorflow-bin/blob/main/previous_versions/download_tensorflow-2.5.0-cp37-none-linux_armv7l_numpy1195.sh using the drive link within the .sh file
 3. Install Ninite WinSCP
 4. Follow : https://www.youtube.com/watch?v=WIOpNuQc068
 5. Transfer downloaded .whl file from PC to Raspberry Pi through WSCP (to the projects folder)
