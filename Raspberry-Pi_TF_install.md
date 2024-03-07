@@ -4,8 +4,8 @@
 
 Material   : ```https://www.youtube.com/watch?v=9fEnvDgxwbI&t=1s``` <br />
 VNC viewer : ```https://www.realvnc.com/en/connect/download/viewer/```
-  1. Normal installation of Rasbian OS(32-bit) Legacey for Pi-3B with the installed done with imager v1.8.5.
-  2. SSH done 
+  1. Normal installation of Rasbian OS(32-bit) Legacey for Pi-3B with the imager v1.8.5 tool.
+  2. SSH connection done 
   3. VCN Remote Desktop
 
 ```
@@ -68,7 +68,7 @@ Run command: ```rm -fr ~/.pyenv```
 <br />
 Then remove lines from .bashrc (sudo nano ~/.bashrc). <br />
 <br />
-## Comming back to TensorFlow
+## Coming back to TensorFlow
 
 To know Processor architecture ```uname -m```
 <br />
@@ -135,8 +135,9 @@ Install the .whl filein the directory.Install with the command below :
 ```
 pip install  tensorflow-'version'.whl
 ```
-### ***UPDATE: wget direct will not work
+### ***UPDATE: wget direct will not work in some cases
 
+In such cases:
 1. Remove the the existing tensorflow.whl file
 2. Download manually from https://github.com/PINTO0309/Tensorflow-bin/blob/main/previous_versions/download_tensorflow-2.5.0-cp37-none-linux_armv7l_numpy1195.sh
 3. Install Ninite WinSCP
@@ -168,16 +169,16 @@ To fix the 'HDF5' warning:
 ```
 pip uninstall h5py
 HDF5_VERSION=1.10.6 pip install --no-binary=h5py h5py==3.1.0 // might not work
-pip install h3py // installs h5py 3.8.0
+pip install h3py // installs h5py 3.8.0 if the above command does not work
 ```
 
 Reference: https://docs.h5py.org/en/stable/build... 
 <br />
 <br />
 
-Now we send the code and pretrained model to the Raspberrypi system and Infer it.<br />
+Now we send the code and pretrained model to the Raspberrypi system and Infer it using WinSCP tool.<br />
 
-We run a few commands:
+We run a few commands in the pi terminal:
 ```
 sudo pip3 install keras_applications==1.0.8 --no-deps
 sudo pip3 install keras_preprocessing==1.1.0 --no-deps
