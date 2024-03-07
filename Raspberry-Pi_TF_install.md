@@ -2,7 +2,7 @@
 
 Material to setup Pi   : ```https://www.youtube.com/watch?v=9fEnvDgxwbI&t=1s``` <br />
 VNC viewer : ```https://www.realvnc.com/en/connect/download/viewer/```
-  1. Normal installation of Rasbian OS(32-bit) Legacey for Pi-3B with the imager v1.8.5 tool.
+  1. Normal installation of Rasbian OS(32-bit) Legacy for Pi-3B with the imager v1.8.5 tool.
   2. SSH connection done 
   3. VCN Remote Desktop
 
