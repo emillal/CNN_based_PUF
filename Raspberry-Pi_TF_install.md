@@ -188,5 +188,23 @@ And, we are good to go.<br />
 ![image](https://github.com/mrdunker/CNN_based_PUF/assets/38190245/79a52404-016a-43fc-9869-2efe30ed4160)
 
 
+### To capture image in a Rpi with USB Webcam
+
+Run the following command to list the USB devices connected
+```
+lsusb
+```
+
+Install Fswebcam
+```
+sudo apt install fswebcam
+```
+
+Run the command below to take and image and save to nessasary directory
+```
+fswebcam -d /dev/video0 -r 1920x1080 -S 30 -F 5 /<Directory>/<filename>.jpg 
+```
+
+
 
 
