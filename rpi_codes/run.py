@@ -14,7 +14,13 @@ from tensorflow.keras.preprocessing import image
 import numpy as np
 
 image_size = (100, 100)
-img_path = '/home/pi/Desktop/project/processed-image/processed_image.jpg'
+
+# Pillow processed image
+# img_path = '/home/pi/Desktop/project/processed-image/processed_image.jpg' 
+
+# cv2 processed image
+img_path = '/home/pi/Desktop/project/processed_image.jpg'  
+
 img = image.load_img(img_path, target_size=image_size)
 img_array = image.img_to_array(img)
 img_array = np.expand_dims(img_array, axis=0)  # Add batch dimension
