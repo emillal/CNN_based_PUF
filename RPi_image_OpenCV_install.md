@@ -1,6 +1,6 @@
 # Raspberry Pi OpenCV installation
 
-## Steps to install Open CV to RPi 3B (Easiest Approch I found)
+## Steps to install Open CV to RPi 3B (Easiest Approch)
 
 1. For best practice create a seperate folder for OpenCV
 2. I have intalled Python 3.9.2 locally in the folder. [Refer here](https://github.com/mrdunker/CNN_based_PUF/blob/main/Raspberry-Pi_TF_install.md)
