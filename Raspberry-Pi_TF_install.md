@@ -12,7 +12,7 @@ ssh pi@raspberrypi //ssh into pi remotely
 sudo raspi-config  //set VCN
 ```
 <br />
-Direct installation deoes not work: https://github.com/samjabrahams/tensorflow-on-raspberry-pi
+Direct installation does not work: https://github.com/samjabrahams/tensorflow-on-raspberry-pi
 <br />
 Approch as per : https://www.youtube.com/watch?v=QLZWQlg-Pk0&t=241s <br />
 
